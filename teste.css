@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box; 
+    background-image: url(https://burst.shopifycdn.com/photos/calm-water-in-european-city.jpg?width=1200&format=pjpg&exif=1&iptc=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{ 
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding-top: 3%;
+    font-size: 305%;
+    text-shadow: 2px 2px 2px pink
+}
+h3{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 205%;
+    text-shadow: 2px 2px 2px pink;
+}
+h2{
+    color: black;
+}
+.caixa {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap:wrap;
+    z-index: 1;
+}
+.caixa .card{
+    position: relative;
+    width: 300px;
+    height: 580px;
+    margin: 30px;
+    box-shadow: 40px 40px 40px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    background: rgba(220, 225, 230, 0.5);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px rgba(120, 139, 163, 0.5);
+}
+
+h1:hover {
+    opacity: 0.5;
+}
+
+.caixa .card .texto{
+    padding: 8px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
